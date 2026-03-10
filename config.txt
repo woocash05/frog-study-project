@@ -1,0 +1,5 @@
+height=10
+width=11
+num_cars=10
+speed_level=1
+num_obstacles=3
