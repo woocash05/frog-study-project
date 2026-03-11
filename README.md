@@ -15,7 +15,7 @@ Prosta gra zręcznościowa typu Frogger uruchamiana w terminalu, napisana w rama
   - stdio.h: obsluga strumieni plikow przy wczytywaniu konfiguracji.
 - Srodowisko: Windows Console (CMD / PowerShell).
 
-## Instrukcja uruchomienia
+## Instrukcja obsługi
 
 ### 1. Przygotowanie pliku konfiguracyjnego
 W katalogu z programem musi znajdowac sie plik config.txt. Przykladowa zawartosc:
@@ -24,11 +24,6 @@ width=30
 num_cars=12
 speed_level=2
 num_obstacles=4
-
-### 2. Kompilacja i start
-Przy uzyciu kompilatora GCC (MinGW):
-g++ main.cpp -o FrogGame.exe
-./FrogGame.exe
 
 ## Sterowanie
 - W, A, S, D - Ruch postacia.
